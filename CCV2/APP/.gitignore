@@ -1,0 +1,8 @@
+# Ignore all __pycache__ directories
+__pycache__/
+utils/__pycache__/
+dao/__pycache__/
+controller/__pycache__/
+
+# Ignore virtual environment directory
+.venv/

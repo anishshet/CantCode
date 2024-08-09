@@ -1,0 +1,148 @@
+/* WebPage Properties: */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Master-class of heading text:  */
+
+.bighead {
+    background-color: rgb(204, 204, 204);
+    border-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header {
+    background: rgb(0, 0, 0);
+    border: 20px;
+    border-radius: 14px;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Background Images & Logo: */
+
+.bulb {
+    background: transparent;
+    fill: none;
+    width: px;
+}
+
+
+/* Language Selection Menu: */
+
+
+/* Text: */
+
+.control-panel {
+    /* background-color: rgb(204, 204, 204); */
+    text-align: right;
+    font-size: 16px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Options: */
+
+.options {
+    border: 1px solid black;
+    margin-right: 100px;
+    margin-left: 10px;
+    text-align: center;
+    /* border: 5px; */
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.options:hover {
+    background-color: rgb(231, 231, 231);
+    /* padding-top: 5px; */
+    transition: 0.3s;
+}
+
+.options:not(:hover) {
+    background: white;
+    transition: 0.3s;
+}
+
+
+/* Text Editor Field: */
+
+#editor {
+    height: 400px;
+}
+
+.editor {
+    background-color: none;
+    border: 2px solid grey;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+
+/* Button: */
+
+.button-container {
+    text-align: right;
+    padding: 4px;
+}
+
+.btn {
+    margin-top: 8px;
+    background: #0ab835;
+    color: white;
+    margin-right: 1%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 119, 48);
+    transition: .3s;
+}
+
+.btn:not(:hover) {
+    background-color: #0ab835;
+    transition: .3s;
+}
+
+
+/* Output: */
+
+.output {
+    padding: 4px;
+    margin: 10px;
+    margin-left: 10px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    height: 100px;
+}
